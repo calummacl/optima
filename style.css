@@ -1,0 +1,37 @@
+h1 {
+    color: midnightblue;
+}
+
+h2 {
+    color: midnightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 10px 250px 250px;
+    gap: 15px;
+}
+
+.line {
+    background-color: orangered;
+    left: 25%;
+    height:1px;
+    width: 50%;
+    margin:0;
+    position:relative;
+    grid-column: span 2;
+}
+
+
+.first {
+    grid-column: span 1;
+    background-color: midnightblue;
+    color: white;
+    padding: 5%;
+}
+
+.second {
+    grid-column: span 1;
+    padding: 5%
+}
