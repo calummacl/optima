@@ -1,37 +1,46 @@
+.logo {
+    height:100px;
+    float: left;
+}
+
 h1 {
     color: midnightblue;
+    display: inline-block;
 }
 
 h2 {
     color: midnightblue;
+    display: inline-block
+}
+
+.navigation {
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+    background-color: gold;
+}
+
+.navigation li {
+    list-style: none;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 10px 250px 250px;
+    grid-template-rows: 350px 250px;
     gap: 15px;
 }
-
-.line {
-    background-color: orangered;
-    left: 25%;
-    height:1px;
-    width: 50%;
-    margin:0;
-    position:relative;
-    grid-column: span 2;
-}
-
 
 .first {
     grid-column: span 1;
     background-color: midnightblue;
     color: white;
     padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .second {
     grid-column: span 1;
-    padding: 5%
+    padding: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
