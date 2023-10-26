@@ -65,7 +65,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
-    gap: 3rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
     justify-content: center;
 }
 
