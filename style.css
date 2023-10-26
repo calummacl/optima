@@ -75,6 +75,16 @@ h3 {
     max-width: 200px;
 }
 
+.service-item > p {
+    margin-top: 0;
+    color: rgb(255, 140, 0);
+}
+
 .service-item img {
     height: 100px;
+}
+
+#service-header {
+    text-align: center;
+    font-size: 1.5rem;
 }
