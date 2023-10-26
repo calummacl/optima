@@ -18,6 +18,8 @@ h3 {
     display: inline-block
 }
 
+
+/* navigation */
 .navigation-bar {
     display: flex;
     gap: 1.5rem;
@@ -40,6 +42,7 @@ h3 {
     text-decoration-line: none;
 }
 
+/* home */
 .home-grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -61,6 +64,7 @@ h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+/* services */
 .service-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
