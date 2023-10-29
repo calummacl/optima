@@ -1,3 +1,53 @@
+.gradient-background {
+    background: linear-gradient(30deg, #0174BE, #FFF0CE, #0C356A);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar{
+    background-color: #0C356A;
+}
+
 .nav-item > a {
     white-space: nowrap;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home-heading {
+    background-color: #0174BE;
+    color: white
+}
+
+h1 {
+    font-family: 'GFS Didot', serif;
+}
+
+#footer{
+    background-color: #dbdbdbee;
+    border-top: solid #d8d7d7ee 2px;
+}
+
+#hero img {
+    border-radius: 35%;
+}
+
+@media (max-width: 576px) {
+    #hero img {
+        width:0px;
+    }
 }
