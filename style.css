@@ -37,9 +37,13 @@ h1 {
     font-family: 'GFS Didot', serif;
 }
 
+h2 {
+    font-family: 'GFS Didot', serif;
+}
+
 #footer{
-    background-color: #dbdbdbee;
-    border-top: solid #d8d7d7ee 2px;
+    background-color:  #FFF0CE;
+    border-top: solid #FFC436 2px;
 }
 
 #hero img {
