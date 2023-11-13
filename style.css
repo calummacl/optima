@@ -1,4 +1,4 @@
-.gradient-background {
+/* .gradient-background {
     background: linear-gradient(30deg, #0174BE, #FFF0CE, #0C356A);
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
@@ -14,7 +14,7 @@
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 .navbar{
     background-color: #0C356A;
@@ -41,13 +41,17 @@ h2 {
     font-family: 'GFS Didot', serif;
 }
 
-#footer{
+#footer {
     background-color:  #FFF0CE;
     border-top: solid #FFC436 2px;
 }
 
 #hero img {
     border-radius: 35%;
+}
+
+.profile-photo {
+    border-radius: 50%;
 }
 
 @media (max-width: 576px) {
