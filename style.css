@@ -41,13 +41,17 @@ h2 {
     font-family: 'GFS Didot', serif;
 }
 
-#footer{
+#footer {
     background-color:  #FFF0CE;
     border-top: solid #FFC436 2px;
 }
 
 #hero img {
     border-radius: 35%;
+}
+
+.profile-photo {
+    border-radius: 50%;
 }
 
 @media (max-width: 576px) {
