@@ -1,0 +1,64 @@
+<%- include("partials/header.ejs") %>
+<%- include("partials/navigation.ejs") %>
+
+<section id="doctor">
+    <div class="container col-xxl-8 px-4 py-5 mb-5">
+        <div class="row flex-lg align-items-center g-5 py-5 mb-2">
+            <div class="col-md-4 col-sm-5">
+                <img class="profile-photo" src="https://familydoctor.org/wp-content/uploads/2018/02/41808433_l.jpg" class="d-block mx-lg-auto img-fluid" alt="Doctor" width="200" height="200" loading="lazy">
+            </div>
+            <div class="col-md-4 col-sm-7">
+                <div class="card">
+                    
+                    <h5 class="card-header">Dr Lewis Hughes</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">MBChB</h5>
+                        <p class="card-text">Specialty</p>
+                    </div>
+                    <div class="card-footer">
+                        Glasgow
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <!-- loop through with EJS -->
+                      <li class="list-group-item">⭐ Remote Consultation</li>
+                      <li class="list-group-item">⭐ Prescribing</li>
+                    </ul>
+                  </div>                   
+            </div>
+            
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="true">About</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="cv-tab" data-bs-toggle="tab" data-bs-target="#cv-tab-pane" type="button" role="tab" aria-controls="cv-tab-pane" aria-selected="false">CV</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services-tab-pane" type="button" role="tab" aria-controls="services-tab-pane" aria-selected="false">Services</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+              </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active mt-2" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime enim asperiores reprehenderit et cumque laborum praesentium sit! Obcaecati, omnis deleniti odit voluptatem culpa tenetur voluptatibus laboriosam adipisci aut aliquam!</div>
+            <div class="tab-pane fade container col-4 mt-2" id="cv-tab-pane" role="tabpanel" aria-labelledby="cv-tab" tabindex="0">
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-primary">Download</button>
+                </div>
+                
+            </div>
+            <div class="tab-pane fade mt-2" id="services-tab-pane" role="tabpanel" aria-labelledby="services-tab" tabindex="0">Services this guy offers</div>
+            <div class="tab-pane fade mt-2" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">07805930298</br>email@email.com</div>
+          </div>
+    </div>
+</section>
+
+<%- include("partials/footer.ejs") %>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

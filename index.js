@@ -1,7 +1,4 @@
 import express from "express";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const port = 3000;
@@ -11,10 +8,21 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    //Step 1 - Make the get route work and render the index.ejs file.
-    res.sendFile(__dirname + "/public/index.html");
+  res.render("index.ejs");
+});
+
+app.get("/about", (req, res) => {
+    res.render("about.ejs");
   });
 
+app.get("/find", (req, res) => {
+    res.render("find.ejs");
+});
+
+app.get("/doctor", (req, res) => {
+    res.render("doctor.ejs");
+});
+
 app.listen(port, ()=>{
-    console.log(`Server running on port: ${port}.`)
-})
+    console.log(`Server running on port: ${port}.`);
+});
