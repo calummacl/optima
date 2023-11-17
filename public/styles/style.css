@@ -21,7 +21,7 @@
     background-color: #525FE1;
 }
 
-#navigation a {
+.nav-item > a {
     white-space: nowrap;
     color: white;
 }
