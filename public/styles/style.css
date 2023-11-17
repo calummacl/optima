@@ -16,23 +16,18 @@
     }
 } */
 
+/* Navigation */
 .navbar{
     background-color: #0C356A;
 }
 
 .nav-item > a {
     white-space: nowrap;
+    color: white;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
-#home-heading {
-    background-color: #0174BE;
-    color: white
-}
-
+/* global */
 h1 {
     font-family: 'GFS Didot', serif;
 }
@@ -41,21 +36,34 @@ h2 {
     font-family: 'GFS Didot', serif;
 }
 
-#footer {
-    background-color:  #FFF0CE;
-    border-top: solid #FFC436 2px;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
+
+/* home */
 #hero img {
     border-radius: 35%;
 }
 
-.profile-photo {
-    border-radius: 50%;
+#home-heading {
+    background-color: #0174BE;
+    color: white
 }
 
 @media (max-width: 576px) {
     #hero img {
         width:0px;
     }
+}
+
+/* doctor page */
+.profile-photo {
+    border-radius: 50%;
+}
+
+/* footer */
+#footer {
+    background-color:  #FFF0CE;
+    border-top: solid #FFC436 2px;
 }
