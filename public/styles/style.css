@@ -18,7 +18,7 @@
 
 /* Navigation */
 .navbar{
-    background-color: #0C356A;
+    background-color: #525FE1;
 }
 
 .nav-item > a {
@@ -47,7 +47,7 @@ body {
 }
 
 #home-heading {
-    background-color: #0174BE;
+    background-color: #FFA41B;
     color: white
 }
 
@@ -64,6 +64,6 @@ body {
 
 /* footer */
 #footer {
-    background-color:  #FFF0CE;
-    border-top: solid #FFC436 2px;
+    background-color: #FFF6F4;
+    border-top: solid  #FFA41B 2px;
 }
